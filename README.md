@@ -8,5 +8,5 @@ The target audience is TNT wechat group members.
 
 - distributed tracing sharing based on opentelemetry
 
-- Dapper paper sharing
+- [Dapper](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/36356.pdf) paper sharing
 > This sharing is demanded by TNT group member.
