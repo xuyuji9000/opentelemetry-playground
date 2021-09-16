@@ -4,7 +4,7 @@ This repo is used to document the learning about microservice observability base
 
 The target audience is TNT wechat group members.
 
-# Sharings
+# Potential Sharings
 
 - Distributed tracing usage sharing based on opentelemetry
 
