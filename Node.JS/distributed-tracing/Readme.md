@@ -8,7 +8,8 @@ This folder contains an example about using OpenTelemetry with Node.JS.
 npm install \
 @opentelemetry/sdk-node \
 @opentelemetry/api \
-@opentelemetry/auto-instrumentations-node
+@opentelemetry/auto-instrumentations-node \
+@opentelemetry/exporter-zipkin
 ```
 
 - Start service
@@ -18,6 +19,16 @@ npm install \
 node --require './tracing.js' app.js
 ```
 
+- Run Zipkin
+
+``` shell
+# Run Zipkin with docker
+docker run --rm \
+-d \
+-p 9411:9411 \
+--name zipkin \
+openzipkin/zipkin
+```
 
 
 # Reference
@@ -26,3 +37,7 @@ node --require './tracing.js' app.js
     > This is an example
 
 - [Data Sources / traces](https://opentelemetry.io/docs/concepts/data-sources/#traces)
+
+- [Exporters / Zipkin](https://opentelemetry.io/docs/js/exporters/#zipkin)
+
+- [Getting started with OpenTelemetry JS](https://github.com/open-telemetry/opentelemetry-js/blob/main/getting-started/README.md)
