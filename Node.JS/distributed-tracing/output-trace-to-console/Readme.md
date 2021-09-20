@@ -1,4 +1,4 @@
-This folder contains an example about using OpenTelemetry with Node.JS.
+This folder contains an example about exporting trace to console with Node.JS.
 
 # Commands
 
